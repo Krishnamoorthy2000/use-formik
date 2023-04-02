@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.title {
+padding : 12px;
+font-size : 50px;
+font-weight: bolder;
+font-family :Arial, Helvetica, sans-serif;
+background-color: rgb(250, 170, 65);
+width: 100vw;
+border: 3px solid black;
+border-radius: 6px;
+}
+.nav-styles{
+  padding : 12px;
+  width : 100vw;
+  background-color: grey;
+  display: flex;
+  justify-content: flex-start;
+  gap :1rem;
+}
+.nav-buttons{
+  border: 2px solid rgb(252, 250, 250);
+  color: white;
+  padding : 12px;
+  border-radius : 5px;
+  background-color: inherit;
+  font-weight:bold;
+}
+.nav-buttons:hover{
+  background-color: rgb(8, 226, 117);
+  border: none;
+}
+
+
+footer{
+  padding: 17px;
+  font-size: larger;
+  font-weight: bolder;
+  width : 100%;
+  background-color: rgb(14, 12, 12);
+  color:rgb(177, 236, 236)
+}
+.user-content{
+margin : 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 1rem;
+
+}
+.user-card:hover{
+  box-shadow: 10px 20px 20px 10px rgba(90, 193, 224, 0.3);}
+.user-card{
+  background-color: #c0b7b7;
+  border-radius : 10px;
+  width : 300px;
+  height : auto;
+  margin:10px;
+  padding: 20px;
+}
+.btn{
+  padding: 10px;
+  margin : 5px;
+  border : none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size : 12px;
+}
+
+.edit-btn:hover{
+  background-color: blueviolet;
+  color : white;
+
+}
+.back:hover{
+  background-color: aqua;
+  color : white;
+
+}
+
+.view-btn:hover{
+  background-color: yellowgreen;
+  color : white;
+ }
+ .update:hover{
+  background-color: crimson;
+  color : white;
+
+ }
+
+.del-btn:hover{
+  background-color: crimson;
+  color : white;
+ }
+ .add-btn:hover{
+  background-color: rgb(194, 233, 19);
+  color:rgb(29, 29, 29)
+ }
+ .btn{
+  font-weight: bold;
+  width:200px;
+  height: auto;
+ }
+
+ .children{
+  height : 90vh;
+  margin : 1vh;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+ 
+ 
+ input{
+  width: 500px;
+  height: auto;
+  
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+ }
+ .Edit{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+ 
+ }
+ .main-card-btn{
+  height: 100px;
+  font-size: 20px;
+  margin: 30px;
+ }
+ .main-card-btn:hover{
+  background-color: fuchsia;
+  color:gold;
+ }
+ .text-areas{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 50px;
+ }
